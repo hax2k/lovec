@@ -1,0 +1,20 @@
+*{
+    color: white;
+    
+}
+
+
+.heart {
+  margin-top: 50px;
+ 
+  margin-bottom: 50px;
+    fill: #C2185B;
+    width: 150px;
+    animation: pulse 3s ease infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+  }

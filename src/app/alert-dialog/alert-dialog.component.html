@@ -1,0 +1,11 @@
+<mat-dialog-content>
+    <p class="text-center fs-4">Your Relationship Score</p>
+    <hr>
+	<p class="text-center fs-6">
+		{{message}}
+	</p>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+	<button mat-raised-button mat-dialog-close color="primary" (click)="routeVideo()" tabindex="1">{{confirmButtonText}}</button>
+	<button mat-raised-button mat-dialog-close (click)="routeHome();" tabindex="">{{cancelButtonText}}</button>
+</mat-dialog-actions>
